@@ -27,7 +27,7 @@ public class PrimeObserverProxy implements ObserverProxy, ServerFace {
 		int state = processor.getState(); 
 		String output = this.handle(state, 1); 
 		if (!output.equals(""))
-			System.out.println("View of Prime Obserever "+output); 
+			System.out.println("View of Prime Observer "+output); 
 	}
   
   public String handle (int input, int id) {

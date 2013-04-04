@@ -6,12 +6,6 @@ public class CountObserverProxy implements ObserverProxy, ServerFace {
 		processor = p;
 		p.attach(this); 
 	}
-	//ServerFace proxy = new CountServerProxy(); 
-	
-	//ServerFace CNetSrv;
-  /*CountServerProxy(){ 
-  		CNetSrv = new CNetServer(2); 
-  }*/
   
   public String handle (int input, int count) {
   	
@@ -25,7 +19,7 @@ public class CountObserverProxy implements ObserverProxy, ServerFace {
 		int count = processor.getCount();
 		String output = this.handle(processor.getState(), count); 
 		if (!output.equals(""))
-			System.out.println("View of Count Server "+output); 
+			System.out.println("View of Count Observer "+output); 
 	}
 	
 	
