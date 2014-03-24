@@ -1,5 +1,4 @@
-SWDAssgn3
-=========
+Software Design Assign4 
 
 1) Run AllOberser.java
 2) Run PrimeOberser.java
